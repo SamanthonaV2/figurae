@@ -1,0 +1,22 @@
+{
+  "name": "figurae-console",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Console privata locale per Figurae e BlackChain",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "compile": "node scripts/compile.mjs",
+    "test": "node --test --test-isolation=none tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.4.0"
+  },
+  "devDependencies": {
+    "ethers": "6.15.0",
+    "ganache": "7.9.2",
+    "solc": "0.8.30"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Figurae",
+  "symbol": "FIG",
+  "standard": "ERC-20",
+  "decimals": 18,
+  "theme": "AI-inspired meme token",
+  "aiIntegration": "branding_only",
+  "maxSupplyTokens": "100000000000",
+  "initialSupplyTokens": "100000000000",
+  "maxSupplyBaseUnits": "100000000000000000000000000000",
+  "initialSupplyBaseUnits": "100000000000000000000000000000",
+  "basisPointsDenominator": "10000",
+  "initialAllocations": [
+    {
+      "recipientRole": "founders_aggregate",
+      "basisPoints": "3000",
+      "percentage": "30",
+      "tokens": "30000000000",
+      "baseUnits": "30000000000000000000000000000"
+    },
+    {
+      "recipientRole": "distribution_wallet",
+      "basisPoints": "7000",
+      "percentage": "70",
+      "tokens": "70000000000",
+      "baseUnits": "70000000000000000000000000000"
+    }
+  ],
+  "allocationTiming": "constructor_only",
+  "founderPercentageMaintainedAfterTransfers": false,
+  "additionalMinting": false,
+  "transferTaxes": false,
+  "addressFreezing": false,
+  "administrativeOwner": false,
+  "consensus": "provided_by_host_network",
+  "publicDeploymentPerformed": false
+}
